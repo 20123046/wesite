@@ -1,0 +1,38 @@
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: aliceblue;
+    font-size: 24px;
+}
+.gazou{
+    text-align: center;
+}
+.social-icon {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+
+.social-icon div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.social-icon div a {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
